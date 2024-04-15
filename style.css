@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: #fff;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-card {
+    background-color: hsl(0, 0%, 12%);
+    max-width: 400px;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.link {
+    display: block;
+}
