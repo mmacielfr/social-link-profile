@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +13,7 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
+    font-family: "Inter", sans-serif; 
 }
 
 .main-card {
@@ -31,6 +34,7 @@ body {
     padding: 8px;
     border-radius: 8px;
     font-weight: 600;
+    transition: ease 0.2s;
 }
 
 .link:hover {
@@ -43,9 +47,10 @@ body {
 }
 
 .profile__pic {
-    border-radius: 50%;
-    width: 35%;
+    border-radius: 10px;
     margin-bottom: 17px;
+    height: 200px;
+    object-fit: cover;
 }
 
 .local {
